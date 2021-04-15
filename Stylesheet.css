@@ -1,0 +1,100 @@
+.parrent
+{
+    width: 100vw;
+}
+.navParrent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100vw;
+    margin-left: 0;
+}
+.navLeft
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.navLeft,a
+{
+    color: #5E5950;
+}
+.navRight
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a
+{
+    padding: 5px;
+    text-decoration: none;
+}
+input[type=text]
+{
+    border-radius: 10px;
+}
+.red
+{
+    color: #FF424D;
+}
+.white
+{
+    color: #FFFFFF;
+}
+.heroParrent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #141518;
+    height: 60vh;
+    margin-left: 0;
+}
+.heroLeft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 40vw;
+}
+.heroLeft a
+{
+    color:#ffff;
+    border: 1px solid #FF424D;
+    border-radius: 10px;
+    background-color: #FF424D;
+    margin-top: 10px;
+    
+}
+.heroRight
+{
+    width: 40vw;
+}
+.gif
+{
+    width: 100%;
+    background-image: url(https://live-patreon-marketing.pantheonsite.io/wp-content/uploads/2020/12/coe-optimize.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    padding-bottom: 57.1214%;
+}
+}
+.CTA
+{
+ margin-top: 10px;
+ border: 1px solid #FF424D;
+ border-radius: 10px;
+ background-color: #FF424D;
+}
