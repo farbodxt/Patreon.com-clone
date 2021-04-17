@@ -1,8 +1,8 @@
-.parrent
+.parent
 {
     width: 100vw;
 }
-.navParrent
+.navParent
 {
     display: flex;
     flex-direction: row;
@@ -49,7 +49,7 @@ input[type=text]
 {
     color: #FFFFFF;
 }
-.heroParrent
+.heroParent
 {
     display: flex;
     flex-direction: row;
@@ -151,7 +151,7 @@ p
     height: 6vh;
     margin-left: 2vw;
 }
-.contentParrent
+.contentParent
 {
     display: flex;
     flex-direction: row-reverse ;
@@ -163,7 +163,6 @@ p
 .contentLeft
 {
     width: 30%;
-    margin: 0px 0px 0px 96px;
 }
 .contentRight
 {
@@ -171,5 +170,51 @@ p
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
+
 }
+.contentParentmiddle
+{
+    display: flex;
+    flex-direction:reverse ;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100vw;
+    padding-top: 3em; 
+}
+.contentLeftMid
+{
+    width: 30%;
+
+}
+.contentRightMid
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.parentImageHolder
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+}
+  .image-holder img{
+    width: 450px;
+  }
+  
+  .menu-list a {
+    color: #B1ACA3;
+    font-size: 2rem;
+    text-decoration:none;    
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+  }
+  .menu-list
+  {
+    list-style-type: none;
+  }
+  
