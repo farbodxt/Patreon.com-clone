@@ -204,6 +204,9 @@ p
 }
   .image-holder img{
     width: 450px;
+    height: 330px;
+    padding: 5em;
+
   }
   
   .menu-list a {
@@ -212,6 +215,10 @@ p
     text-decoration:none;    
     display: inline-block;
     font-family: Montserrat, sans-serif;
+  }
+  .menu-list a:hover
+  {
+      text-decoration: underline;
   }
   .menu-list
   {
