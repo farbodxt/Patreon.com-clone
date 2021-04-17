@@ -10,6 +10,7 @@
     align-items: center;
     background-color: #FFFFFF;
     width: 100vw;
+    height: 60px;
     margin-left: 0;
 }
 .navLeft
@@ -17,10 +18,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     flex-wrap: nowrap;
 }
-.navLeft,a
+.navLeft a
 {
     color: #5E5950;
 }
@@ -28,7 +29,7 @@
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 a
@@ -52,33 +53,55 @@ input[type=text]
 {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #141518;
-    height: 60vh;
+    height: 565px;
     margin-left: 0;
 }
 .heroLeft
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: left;
-    width: 40vw;
+    width: 30vw;
+    height: 78%;
+}
+h1
+{
+    font-size: 45pt;
+    word-break:normal;
+}
+h2
+{
+    font-size: 33pt;
+}
+p
+{
+    font-size: 17pt;
+}
+.heroLeft span
+{
+    font-size: 15pt;
 }
 .heroLeft a
 {
+    position: relative;
+    top: 30px;
     color:#ffff;
-    border: 1px solid #FF424D;
-    border-radius: 10px;
+    border: 10px solid #FF424D;
+    border-radius: 20px;
     background-color: #FF424D;
-    margin-top: 10px;
     
 }
 .heroRight
 {
-    width: 40vw;
+    width: 30vw;
+    margin-left: 5vw;
+
+
 }
 .gif
 {
@@ -93,8 +116,60 @@ input[type=text]
 }
 .CTA
 {
- margin-top: 10px;
- border: 1px solid #FF424D;
+ border: 9px solid #FF424D;
  border-radius: 10px;
- background-color: #FF424D;
+
+}
+.title
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search input[type=text]
+{
+    width: 60vw;
+    height: 6vh;
+    border-radius: 30px;
+    background-color: #F5F4F2;
+    border: 1px solid transparent;
+}
+.search input[type=button]
+{
+    border-radius: 30px;
+    background-color: #FF424D;
+    border: 1px solid transparent;
+    width: 70pt;
+    height: 6vh;
+    margin-left: 2vw;
+}
+.contentParrent
+{
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100vw;
+    padding-top: 3em;
+}
+.contentLeft
+{
+    width: 30%;
+    margin: 0px 0px 0px 96px;
+}
+.contentRight
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
 }
