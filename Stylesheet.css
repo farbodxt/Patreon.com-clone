@@ -82,17 +82,17 @@ input[type=text]
 @font-face
 {
     font-family: myFirstFont;
-    src: url(/week3/Patreon.com-clone/fonts/GTWalsheimPro-Medium.woff);
+    src: url(https://raw.githubusercontent.com/farbodxt/Patreon.com-clone/master/fonts/GTWalsheimPro-Medium.woff);
 }
 @font-face
 {
     font-family: mySecondFont;
-    src: url(/week3/Patreon.com-clone/fonts/GTWalsheimPro-Light.woff);
+    src: url(https://raw.githubusercontent.com/farbodxt/Patreon.com-clone/master/fonts/GTWalsheimPro-Light.woff);
 }
 @font-face
 {
     font-family: myThirdFont;
-    src: url(/week3/Patreon.com-clone/fonts/GTWalsheimPro-UltraLight.woff);
+    src: url(https://raw.githubusercontent.com/farbodxt/Patreon.com-clone/master/fonts/GTWalsheimPro-UltraLight.woff);
 }
 h1
 {
