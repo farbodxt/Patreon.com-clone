@@ -36,6 +36,7 @@
 .navRight a
 {
     margin-right: 40px;
+    color: #5E5950;
 }
 a
 {
@@ -78,18 +79,36 @@ input[type=text]
     width: 30vw;
     height: 78%;
 }
+@font-face
+{
+    font-family: myFirstFont;
+    src: url(/week3/Patreon.com-clone/fonts/GTWalsheimPro-Medium.woff);
+}
+@font-face
+{
+    font-family: mySecondFont;
+    src: url(/week3/Patreon.com-clone/fonts/GTWalsheimPro-Light.woff);
+}
+@font-face
+{
+    font-family: myThirdFont;
+    src: url(/week3/Patreon.com-clone/fonts/GTWalsheimPro-UltraLight.woff);
+}
 h1
 {
     font-size: 45pt;
     word-break:normal;
+    font-family:myFirstFont;
 }
 h2
 {
     font-size: 33pt;
     margin: 0;
+    font-family:myFirstFont;
 }
 h3
 {
+    font-family:myFirstFont;
     font-size: 26pt;
     color: #FF424D;
 }
@@ -97,10 +116,25 @@ h4{
     font-size: 18pt;
     margin-top: 0px;
     margin-bottom: 1vh;
+    font-family:myFirstFont;
 }
 p
 {
     font-size: 17pt;
+    font-family:mySecondFont;
+}
+span
+{
+    font-family: mySecondFont;
+}
+a
+{
+    font-family: mySecondFont;
+    cursor: pointer;
+}
+a:hover
+{
+    text-decoration: underline;
 }
 .heroLeft span
 {
@@ -118,10 +152,21 @@ p
 }
 .heroRight
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     bottom: 5px;
     width: 30vw;
     margin-left: 5vw;
+}
+.play
+{
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .gif
 {
@@ -137,7 +182,7 @@ p
 .CTA
 {
  border: 1px solid transparent;
- color: white;
+ color: white !important;
  border-radius: 30px;
  background-color: #FF424D;
  padding: 0.8em 1.2rem;
@@ -181,6 +226,7 @@ p
     margin-left: 0.5em;
     color: #ffff;
     font-size: 13pt;
+    cursor: pointer;
 }
 .contentParent
 {
@@ -360,6 +406,7 @@ footer
     margin-top: 8px;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .footerLeftSocial
 {
@@ -370,6 +417,13 @@ footer
     font-size: 25pt;
     margin-left: 14.5vw;
     margin-top: 4vh;
+    cursor: pointer;
+}
+.footerLeftSocial i:hover
+{
+    transition: 0.3s;
+    transform: scale(1.1);
+    color: #B1ACA3;
 }
 .footerLeftSocial i
 {
@@ -397,4 +451,9 @@ footer
 {
     line-height: 1.5;
     padding-right: 100px;
+}
+input[type=button]:hover
+{ 
+    transition: 1s;
+    transform: scale(1.02);
 }
